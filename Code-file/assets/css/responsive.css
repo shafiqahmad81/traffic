@@ -1,0 +1,232 @@
+/*mobile liaute*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    /* Default style */
+    h1{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    h2{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    h3{
+        font-size: 17px; 
+        line-height: 22px;
+    }
+
+    h4{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    input[type="text"], input[type="email"], input[type="password"], input[type="search"], input[type="tel"], textarea,
+    .btn{
+        line-height: 34px;
+        width: 100%;
+    }
+    
+    .btn{
+        height: 40px;
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    
+    .container{
+        padding: 0 25px;
+    }
+    
+/*header section*/
+    
+    .main-menu{
+        display: none;
+    }
+    
+    .menu-icon {
+    float: right;
+    margin: 30px 0;
+    position: relative;
+    }
+    .menu-icon div {
+        width: 20px;
+        height: 2px;
+        background: #ddd;
+    }
+    .menu-icon div:before,.menu-icon div:after {
+        content: "";
+        width: 20px;
+        height: 2px;
+        left: 0;
+        top: 0;
+        position: absolute;
+        background: #ddd;
+    }
+    .menu-icon div:after {
+        top: 5px;
+    }
+    .menu-icon div:before {
+        top: -5px;
+    }
+
+    .main-section{
+        margin-top: -150px;
+    }
+    
+    .content {
+        width: 100%;
+        float: left;
+    }
+    
+    .content h1 {
+        font-size: 34px;
+        margin-top: 10px;
+    }
+    .content p {
+        line-height: 25px;
+        margin-top: 15px;
+    }
+    input[type="email"] {
+        padding: 5px 10px;
+    }
+    .content .btn{
+        margin: 10px 0 0 0;
+    }
+    .figure {
+        margin-top: 40px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .service-section {
+        margin-top: 0;
+    }
+    .service-items{
+        width: 100%;
+        float: left;
+        margin-top: -35px;
+        padding: 10px 5px;
+    }
+    .service-items p{
+        text-align: justify;
+    }
+    .service-section .title-section {
+        margin-top: 25px;
+    }
+    .service-items-wrap {
+        margin-top: 60px;
+    }
+    .marketing-section {
+        margin-top: -30px;
+    }
+    .marketing {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .marketing h2 {
+        font-size: 22px;
+        line-height: 36px;
+        margin-top: 20px;
+    }
+    .marketing p {
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 15px;
+    }
+    .marketing .btn{
+        margin: 0;
+    }
+    .laptop {
+        margin-top: 40px;
+    }
+    
+    .case-study-section {
+        margin-top: 40px;
+        padding-top: 35px;
+    }
+    .case-study-carousel {
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+    .tsetomonial-section {
+        padding: 30px 0 30px;
+    }
+    .ready-improve-section{
+       padding: 30px 0; 
+    }
+    .ready-improve h2 {
+        margin-top: 0;
+    }
+    .pricing-section {
+        margin-top: 35px;
+    }    
+    .pricing-content {
+        margin-top: 35px;
+    }
+    .pricing-items {
+        width: 100%;
+        padding: 10px 10px;
+        margin-top: 20px;
+    }
+    .pricing-bottom a {
+        line-height: 30px;
+        font-size: 16px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
